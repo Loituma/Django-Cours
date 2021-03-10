@@ -1,4 +1,4 @@
-
 env/
 .idea/
 text.txt
+.env.dev
