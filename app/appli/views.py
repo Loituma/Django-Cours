@@ -5,6 +5,7 @@ from django.core.mail import EmailMessage
 from .forms import ContactForm
 from .models import Contact
 from datetime import datetime
+from django.views.generic import CreateView
 
 # Create your views here.
 def index(request):

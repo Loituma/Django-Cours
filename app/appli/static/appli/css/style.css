@@ -1,0 +1,15 @@
+#contactForm p label{
+    width: 100%;
+}
+#contactForm p input{
+    padding: 0;
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #8FB4B4;
+}
+#contactForm p textarea{
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #8FB4B4;
+}

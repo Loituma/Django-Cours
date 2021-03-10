@@ -14,6 +14,7 @@ https://templatemo.com/tm-532-next-level
     <link rel="stylesheet" href="{% static 'appli/css/all.min.css' %}" />
     <link rel="stylesheet" href="{% static 'appli/css/bootstrap.min.css' %}" />
     <link rel="stylesheet" href="{% static 'appli/css/templatemo-style.css' %}" />
+    <link rel="stylesheet" href="{% static 'appli/css/style.css' %}" />
   </head>
   <body>
     <div class="container-fluid">
@@ -95,14 +96,14 @@ https://templatemo.com/tm-532-next-level
               </div>
             </div>
           </div>
-          <div class="tm-page-col-right tm-form-container">
+          <div class="tm-page-col-right tm-form-container" id="contactForm">
             <h2 class="tm-text-secondary mb-4">Contact Us</h2>
             {% block content %}
           <form method="post">
               {% csrf_token %}
               {{ form.as_p }}
-            <div class="d-flex ">
-              <button>
+            <div class="text-right">
+              <button class="btn btn-primary">
                 Envoyer
               </button>
             </div>
