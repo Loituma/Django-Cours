@@ -17,6 +17,6 @@ Pour utiliser manager.py
 
 Pour voir la bdd:
 - `docker-compose exec db psql --username=user --dbname=mysite`
-- `\\l` -> check si la bdd exite
-- `\\c mysite` -> Go dans ma bdd
-- `\\dt` -> Affiche les tables
+- `\l` -> check si la bdd exite
+- `\c mysite` -> Go dans ma bdd
+- `\dt` -> Affiche les tables
