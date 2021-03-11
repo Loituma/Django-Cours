@@ -20,3 +20,8 @@ Pour voir la bdd:
 - `\l` -> check si la bdd exite
 - `\c mysite` -> Go dans ma bdd
 - `\dt` -> Affiche les tables
+
+
+Si problème avec la table appli_contact faire ces commandes dans la bdd
+- `DROP TABLE appli_contact;`
+- `CREATE TABLE appli_contact(id SERIAL PRIMARY KEY,nom VARCHAR(150),prenom VARCHAR(150),mail VARCHAR(50),titre VARCHAR(50),contenu VARCHAR(200),competence VARCHAR(250),date timestamp);`
