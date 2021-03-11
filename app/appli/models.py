@@ -11,7 +11,9 @@ class Kube(models.Model):
 
 class Contact(models.Model):
     nom = models.CharField(max_length=150)
+    prenom = models.CharField(max_length=150)
     mail = models.CharField(max_length=50)
     titre = models.CharField(max_length=50)
     contenu = models.TextField(max_length=200)
+    competence = models.TextField(max_length=250)
     date = models.DateTimeField(default=timezone.now)

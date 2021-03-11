@@ -3,8 +3,8 @@ from appli.models import Kube, Contact
 # Register your models here.
 
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ('nom', 'mail', 'titre', 'date') #Liste des champs a afficher
-    search_fields = ('nom', 'mail') #Recherche par ces champs
+    list_display = ('nom', 'mail', 'titre', 'competence', 'date') #Liste des champs a afficher
+    search_fields = ('competence', ) #Recherche par ces champs
     date_hierarchy = 'date'
     list_filter = ('nom', )
     # ordering = ('date', ) #Force l order sur un champ
